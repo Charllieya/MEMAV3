@@ -1,0 +1,8 @@
+{
+  "name": "practice-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "1d50c326"
+}
