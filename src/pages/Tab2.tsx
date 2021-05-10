@@ -14,11 +14,11 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Tab 2</IonTitle>
           </IonToolbar>
-        </IonHeader>
+        </IonHeader> */}
         <ExploreContainer name="Tab 2 page" />
         <Link to={RoutesNames.tab2.contactInfo}>
           Contact info

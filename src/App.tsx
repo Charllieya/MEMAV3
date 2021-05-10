@@ -50,7 +50,7 @@ const App: React.FC = () => (
           </Route>
          
           <Routes/>
-          <Route path="/tab3">
+          <Route exact path="/tab3">
             <Tab3 />
           </Route>
           <Route exact path="/">

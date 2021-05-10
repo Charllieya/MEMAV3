@@ -14,7 +14,7 @@ import ContactInfo from '../pages/Tab2SubPages/ContactInfo';
 function Tab2SubRoutes(props) {
   return (
     <>
-      <Route path={RoutesNames.tab2.contactInfo} exact>
+      <Route exact path={RoutesNames.tab2.contactInfo}>
         <ContactInfo />
       </Route>
     </>
@@ -30,11 +30,11 @@ function Tab4(props) {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Contact Info</IonTitle>
           </IonToolbar>
-        </IonHeader>
+        </IonHeader> */}
         <ExploreContainer name="Contact Info" />
       </IonContent>
     </IonPage>
